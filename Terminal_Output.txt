@@ -1,0 +1,83 @@
+======================================================================
+INICIANDO EXPERIMENTOS DE LIMPIEZA MULTIAGENTE
+======================================================================
+Configuracion del grid: 10x10
+Porcentaje de celdas sucias: 30.0%
+Repeticiones por configuracion: 10
+Numero maximo de pasos: 1000
+======================================================================
+
+Probando con 1 agente(s)...
+  Repeticion 1/10 completada: 990 pasos, 100.0% limpio
+  Repeticion 2/10 completada: 601 pasos, 100.0% limpio
+  Repeticion 3/10 completada: 1000 pasos, 98.0% limpio
+  Repeticion 4/10 completada: 1000 pasos, 99.0% limpio
+  Repeticion 5/10 completada: 1000 pasos, 99.0% limpio
+  Repeticion 6/10 completada: 464 pasos, 100.0% limpio
+  Repeticion 7/10 completada: 841 pasos, 100.0% limpio
+  Repeticion 8/10 completada: 620 pasos, 100.0% limpio
+  Repeticion 9/10 completada: 753 pasos, 100.0% limpio
+  Repeticion 10/10 completada: 450 pasos, 100.0% limpio
+
+Probando con 2 agente(s)...
+  Repeticion 1/10 completada: 412 pasos, 100.0% limpio
+  Repeticion 2/10 completada: 336 pasos, 100.0% limpio
+  Repeticion 3/10 completada: 286 pasos, 100.0% limpio
+  Repeticion 4/10 completada: 451 pasos, 100.0% limpio
+  Repeticion 5/10 completada: 233 pasos, 100.0% limpio
+  Repeticion 6/10 completada: 547 pasos, 100.0% limpio
+  Repeticion 7/10 completada: 279 pasos, 100.0% limpio
+  Repeticion 8/10 completada: 588 pasos, 100.0% limpio
+  Repeticion 9/10 completada: 472 pasos, 100.0% limpio
+  Repeticion 10/10 completada: 272 pasos, 100.0% limpio
+
+Probando con 3 agente(s)...
+  Repeticion 1/10 completada: 348 pasos, 100.0% limpio
+  Repeticion 2/10 completada: 362 pasos, 100.0% limpio
+  Repeticion 3/10 completada: 391 pasos, 100.0% limpio
+  Repeticion 4/10 completada: 394 pasos, 100.0% limpio
+  Repeticion 5/10 completada: 209 pasos, 100.0% limpio
+  Repeticion 6/10 completada: 462 pasos, 100.0% limpio
+  Repeticion 7/10 completada: 366 pasos, 100.0% limpio
+  Repeticion 8/10 completada: 204 pasos, 100.0% limpio
+  Repeticion 9/10 completada: 361 pasos, 100.0% limpio
+  Repeticion 10/10 completada: 292 pasos, 100.0% limpio
+
+Probando con 4 agente(s)...
+  Repeticion 1/10 completada: 134 pasos, 100.0% limpio
+  Repeticion 2/10 completada: 349 pasos, 100.0% limpio
+  Repeticion 3/10 completada: 125 pasos, 100.0% limpio
+  Repeticion 4/10 completada: 212 pasos, 100.0% limpio
+  Repeticion 5/10 completada: 238 pasos, 100.0% limpio
+  Repeticion 6/10 completada: 307 pasos, 100.0% limpio
+  Repeticion 7/10 completada: 171 pasos, 100.0% limpio
+  Repeticion 8/10 completada: 196 pasos, 100.0% limpio
+  Repeticion 9/10 completada: 225 pasos, 100.0% limpio
+  Repeticion 10/10 completada: 167 pasos, 100.0% limpio
+
+Probando con 5 agente(s)...
+  Repeticion 1/10 completada: 167 pasos, 100.0% limpio
+  Repeticion 2/10 completada: 145 pasos, 100.0% limpio
+  Repeticion 3/10 completada: 408 pasos, 100.0% limpio
+  Repeticion 4/10 completada: 191 pasos, 100.0% limpio
+  Repeticion 5/10 completada: 231 pasos, 100.0% limpio
+  Repeticion 6/10 completada: 119 pasos, 100.0% limpio
+  Repeticion 7/10 completada: 347 pasos, 100.0% limpio
+  Repeticion 8/10 completada: 161 pasos, 100.0% limpio
+  Repeticion 9/10 completada: 121 pasos, 100.0% limpio
+  Repeticion 10/10 completada: 448 pasos, 100.0% limpio
+
+======================================================================
+EXPERIMENTOS COMPLETADOS
+======================================================================
+
+======================================================================
+TABLA DE RESULTADOS ESTADISTICOS
+======================================================================
+ num_agents  avg_time_to_clean   std_time  avg_clean_percentage  std_clean_percentage  avg_total_movements  std_total_movements
+          1              771.9 225.952527                  99.6              0.699206                742.3           226.401831
+          2              387.6 124.432222                 100.0              0.000000                737.2           245.936216
+          3              338.9  81.659796                 100.0              0.000000                960.1           240.707499
+          4              212.4  71.687904                 100.0              0.000000                785.2           275.981803
+          5              233.8 122.216384                 100.0              0.000000               1067.2           577.040303
+======================================================================
