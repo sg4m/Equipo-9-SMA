@@ -217,14 +217,14 @@ def runSimulation(modelo):
     return resultados
 
 
-def experiment_results(num_agents_list=[1, 2, 3, 4, 5], reps=10, M=10, N=10, 
+def experimentResults(numAgentList=[1, 2, 3, 4, 5], reps=10, M=10, N=10, 
                       dirty_percentage=0.3, max_steps=1000):
     """
     Ejecuta experimentos multiples variando el numero de agentes.
     Recolecta metricas estadisticas de multiples repeticiones.
 
     Parametros:
-    num_agents_list -- Lista con numeros de agentes a probar
+    numAgentList -- Lista con numeros de agentes a probar
     reps -- Numero de repeticiones por configuracion
     M -- Numero de filas del grid
     N -- Numero de columnas del grid
@@ -247,7 +247,7 @@ def experiment_results(num_agents_list=[1, 2, 3, 4, 5], reps=10, M=10, N=10,
     datosExperimento = []
 
     # Iterar sobre cada numero de agentes
-    for numAgentes in num_agents_list:
+    for numAgentes in numAgentList:
         print(f"\nProbando con {numAgentes} agente(s)...")
 
         # Ejecutar multiples repeticiones
@@ -301,7 +301,7 @@ def experiment_results(num_agents_list=[1, 2, 3, 4, 5], reps=10, M=10, N=10,
     return estadisticas, dfCompleto
 
 
-def visualize_results(estadisticas):
+def visualizeResults(estadisticas):
     """
     Crea visualizaciones de los resultados experimentales.
 
@@ -367,13 +367,13 @@ def main():
     M = 10
     N = 10
     DIRTY_PERCENTAGE = 0.3
-    NUM_AGENTS_LIST = [1, 2, 3, 4, 5]
+    numAgentList = [1, 2, 3, 4, 5]
     REPETICIONES = 10
     MAX_STEPS = 1000
 
     # Ejecutar experimentos
-    estadisticas, dfCompleto = experiment_results(
-        num_agents_list=NUM_AGENTS_LIST,
+    estadisticas, dfCompleto = experimentResults(
+        numAgentList=numAgentList,
         reps=REPETICIONES,
         M=M,
         N=N,
@@ -396,7 +396,7 @@ def main():
     print("  - datos_completos_experimento.csv")
 
     # Crear visualizaciones
-    visualize_results(estadisticas)
+    visualizeResults(estadisticas)
 
     # Analisis adicional
     print("\n" + "=" * 70)
